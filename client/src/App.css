@@ -1,0 +1,1566 @@
+/*aapp css*/
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*  menu */
+
+/* App.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.menu-container {
+    display: flex;
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+.sidebar {
+    width: 250px; /* Largura do menu lateral */
+    background-color: #333; /* Cor de fundo do menu lateral */
+    color: #fff; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Espaçamento do topo */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 15px 0; /* Espaçamento entre os itens */
+}
+
+.sidebar a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.sidebar a:hover {
+    background-color: #444; /* Cor de fundo ao passar o mouse */
+}
+
+.sidebar a svg {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.content {
+    flex: 1;
+    padding: 20px; /* Espaçamento interno do conteúdo */
+    background-color: #f4f4f4; /* Cor de fundo do conteúdo */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+}
+
+
+/* register*/
+/* Define o estilo para o container da tela de registro */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5; /* Fundo claro */
+}
+
+/* Estilo para o formulário de registro */
+.register-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.register-form h2 {
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+.register-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo para o botão */
+.register-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor do botão */
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão ao passar o mouse */
+.register-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens */
+.register-form p {
+    color: red;
+    margin-top: 1rem;
+}
+
+/* Estilo para o link para a página de login */
+.register-form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-form p a:hover {
+    text-decoration: underline;
+}
+
+
+/*login*/
+
+/* Define o estilo para o container da tela de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5; /* Fundo claro */
+}
+
+/* Estilo para o formulário de login */
+.login-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.login-form h2 {
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+.login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo para o botão */
+.login-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor do botão */
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão ao passar o mouse */
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens de erro */
+.login-form p {
+    color: red;
+    margin-top: 1rem;
+}
+
+/* Estilo para o link para a página de registro */
+.login-form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form p a:hover {
+    text-decoration: underline;
+}
+
+
+/* alunos */
+
+/* Estilo geral */
+
+  
+  .alunos-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 24px;
+  }
+  
+  /* Barra de busca */
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #007BFF;
+  }
+  
+  .search-bar button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Lista de alunos */
+  .student-list {
+    margin-top: 20px;
+  }
+  
+  .student-card {
+    background-color: #fafafa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .student-info h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .student-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Ações no card do aluno */
+  .student-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-button, .edit-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-button {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .view-button:hover {
+    background-color: #138496;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Botão de adicionar */
+  .add-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #28a745;
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .alunos-container {
+      padding: 20px;
+    }
+  
+    .student-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .student-actions {
+      margin-top: 10px;
+    }
+  }
+  
+
+
+/* avaliaçao*/
+/*aapp css*/
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*  menu */
+
+/* App.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.menu-container {
+    display: flex;
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+.sidebar {
+    width: 250px; /* Largura do menu lateral */
+    background-color: #333; /* Cor de fundo do menu lateral */
+    color: #fff; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Espaçamento do topo */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 15px 0; /* Espaçamento entre os itens */
+}
+
+.sidebar a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.sidebar a:hover {
+    background-color: #444; /* Cor de fundo ao passar o mouse */
+}
+
+.sidebar a svg {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.content {
+    flex: 1;
+    padding: 20px; /* Espaçamento interno do conteúdo */
+    background-color: #f4f4f4; /* Cor de fundo do conteúdo */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+}
+
+
+/* register*/
+/* Define o estilo para o container da tela de registro */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5; /* Fundo claro */
+}
+
+/* Estilo para o formulário de registro */
+.register-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.register-form h2 {
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+.register-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo para o botão */
+.register-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor do botão */
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão ao passar o mouse */
+.register-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens */
+.register-form p {
+    color: red;
+    margin-top: 1rem;
+}
+
+/* Estilo para o link para a página de login */
+.register-form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-form p a:hover {
+    text-decoration: underline;
+}
+
+
+/*login*/
+
+/* Define o estilo para o container da tela de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5; /* Fundo claro */
+}
+
+/* Estilo para o formulário de login */
+.login-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.login-form h2 {
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+.login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo para o botão */
+.login-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor do botão */
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão ao passar o mouse */
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens de erro */
+.login-form p {
+    color: red;
+    margin-top: 1rem;
+}
+
+/* Estilo para o link para a página de registro */
+.login-form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form p a:hover {
+    text-decoration: underline;
+}
+
+
+/* alunos */
+
+/* Estilo geral */
+
+  
+  .alunos-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 24px;
+  }
+  
+  /* Barra de busca */
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #007BFF;
+  }
+  
+  .search-bar button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Lista de alunos */
+  .student-list {
+    margin-top: 20px;
+  }
+  
+  .student-card {
+    background-color: #fafafa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .student-info h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .student-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Ações no card do aluno */
+  .student-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-button, .edit-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-button {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .view-button:hover {
+    background-color: #138496;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Botão de adicionar */
+  .add-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #28a745;
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .alunos-container {
+      padding: 20px;
+    }
+  
+    .student-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .student-actions {
+      margin-top: 10px;
+    }
+  }
+  
+
+
+/* avaliaçao*/
+
+  /* Container principal */
+  .avaliacao-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 24px;
+  }
+  
+  /* Barra de busca */
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #007BFF;
+  }
+  
+  .search-bar button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Lista de alunos */
+  .student-list {
+    margin-top: 20px;
+  }
+  
+  .student-card {
+    background-color: #fafafa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .student-info h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .student-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .select-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .select-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilo de erro */
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .avaliacao-container {
+      padding: 20px;
+    }
+  
+    .search-bar {
+      flex-direction: column;
+    }
+  
+    .search-bar input {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+/* av feminina */
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}
+
+
+/* av masculina */
+
+.evaluation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.evaluation-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.evaluation-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+  /* edit studente*/
+
+
+
+  .edit-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    color: #45a049;
+}
+
+.edit-student-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-student-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-icon {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+/* add student */
+
+
+.add-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    color: #45a049;
+}
+
+.add-student-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-student-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-icon {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+/* view student*/
+
+
+
+.view-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    color: #45a049;
+}
+
+.student-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-details p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+  /* Estilo de erro */
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .avaliacao-container {
+      padding: 20px;
+    }
+  
+    .search-bar {
+      flex-direction: column;
+    }
+  
+    .search-bar input {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+/* av feminina */
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}
+
+
+/* av masculina */
+
+.evaluation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.evaluation-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.evaluation-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+  /* edit studente*/
+
+
+
+  .edit-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    color: #45a049;
+}
+
+.edit-student-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-student-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-icon {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+/* add student */
+
+
+.add-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    color: #45a049;
+}
+
+.add-student-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-student-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-icon {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+/* view student*/
+
+
+
+.view-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    color: #45a049;
+}
+
+.student-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-details p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
